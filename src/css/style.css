@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: Proxima Nova;
+      font-weight: 300;
+      src: url(../font/proxima_ssv/Proxima\ Nova\ Thin.otf) format("otf");
+    }
+    @font-face {
+      font-family: Proxima Nova;
+      font-weight: 400;
+      src: url(../font/proxima_ssv/ProximaNova-Regular.otf) format("otf");
+    }
+    @font-face {
+      font-family: Proxima Nova;
+      font-weight: 500;
+      src: url(../font/proxima_ssv/Proxima\ Nova\ Bold.otf) format("otf");
+    }
+  }
+
+.swiper-pagination-bullet {
+    background: #ffffff !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #F0A500 !important;
+    width: 20px !important;
+    border-radius: 100000px !important;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+input[type="radio"]:checked {
+    background-color: var(--primary) !important;
+    color: var(--primary) !important
+}
