@@ -54,7 +54,7 @@ btnDecrement.click(function() {
 
 // --- katalog ---
 
-// accordio
+// accordion
 const btnAccordion1 = $('#accordion-collapse-heading-1').find('button')
 const btnAccordion2 = $('#accordion-collapse-heading-2').find('button')
 const btnAccordion3 = $('#accordion-collapse-heading-3').find('button')
@@ -93,4 +93,32 @@ btnAccordion3.click(function() {
     iconAccordion1.removeClass('rotate-180');
     iconAccordion2.removeClass('rotate-180');
     iconAccordion3.toggleClass('rotate-180');
+})
+
+// --- faq ----
+
+// accordion
+const btnAccordionFaq1 = $('#accordion-faq-btn-1').find('button')
+const btnAccordionFaq2 = $('#accordion-faq-btn-2').find('button')
+
+const iconAccordionFaq1 = $('#accordion-faq-btn-1').find('svg')
+const iconAccordionFaq2 = $('#accordion-faq-btn-2').find('svg')
+
+const accordionFaq1 = $('#accordion-faq-body-1')
+const accordionFaq2 = $('#accordion-faq-body-2')
+
+btnAccordionFaq1.click(function() {
+    accordionFaq1.toggleClass('hidden')
+    accordionFaq2.addClass('hidden')
+    
+    iconAccordionFaq1.toggleClass('rotate-180');
+    iconAccordionFaq2.removeClass('rotate-180');
+})
+
+btnAccordionFaq2.click(function() {
+    accordionFaq1.addClass('hidden')
+    accordionFaq2.toggleClass('hidden')
+    
+    iconAccordionFaq1.removeClass('rotate-180');
+    iconAccordionFaq2.toggleClass('rotate-180');
 })
