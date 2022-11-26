@@ -22,7 +22,7 @@
             <h1 class="text-white text-[32px] font-bold mb-12">FAQ</h1>
             
             <!-- accordion -->
-            <div id="accordion-collapse" class="w-[75%]" data-accordion="collapse">
+            <div id="accordion-collapse" class="w-full md:w-[75%]" data-accordion="collapse">
                 <h2 id="accordion-faq-btn-1" class=" border-b border-secondary">
                     <button type="button" class="flex items-center justify-between w-full py-4 tex-xl font-bold text-left text-white" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-faq-body-1">
                         <span>How to Order?</span>
@@ -30,14 +30,13 @@
                         <svg data-accordion-icon class="hidden w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </button>
                 </h2>
-                <div id="accordion-faq-body-1" class="hidden" aria-labelledby="accordion-faq-1">
-                    <p class="text-white py-4">
-                    1. Choose selected items, then click ADD TO CART <br>
-                    2. After that, click the CHECKOUT button <br>
-                    3. Login first if you already have an account/register if you don't have an account
-                    You can also use Guest Checkout if you don't want to register <br>
-                    4. Click shopping cart then CHECKOUT
-                    </p>
+                <div id="accordion-faq-body-1" class="hidden pl-4" aria-labelledby="accordion-faq-1">
+                    <ol class="list-decimal text-sm md:text-md text-white py-4">
+                        <li class="pl-2 pb-1">Choose selected items, then click ADD TO CART</li>
+                        <li class="pl-2 pb-1">After that, click the CHECKOUT button</li>
+                        <li class="pl-2 pb-1">Login first if you already have an account/register if you don't have an account You can also use Guest Checkout if you don't want to register</li>
+                        <li class="pl-2 pb-1">Click shopping cart then CHECKOUT</li>
+                    </ol>
                 </div>
                 <h2 id="accordion-faq-btn-2" class=" border-b border-secondary">
                     <button type="button" class="flex items-center justify-between w-full py-4 tex-xl font-bold text-left text-white" data-accordion-target="#accordion-collapse-body-2" aria-expanded="true" aria-controls="accordion-faq-body-2">
@@ -46,14 +45,13 @@
                         <svg data-accordion-icon class="hidden w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </button>
                 </h2>
-                <div id="accordion-faq-body-2" class="hidden" aria-labelledby="accordion-faq-body-2">
-                    <p class="text-white py-4">
-                    1. Choose selected items, then click ADD TO CART <br>
-                    2. After that, click the CHECKOUT button <br>
-                    3. Login first if you already have an account/register if you don't have an account
-                    You can also use Guest Checkout if you don't want to register <br>
-                    4. Click shopping cart then CHECKOUT
-                    </p>
+                <div id="accordion-faq-body-2" class="hidden pl-4" aria-labelledby="accordion-faq-body-2">
+                    <ol class="list-decimal text-sm md:text-md text-white py-4">
+                        <li class="pl-2 pb-1">Choose selected items, then click ADD TO CART</li>
+                        <li class="pl-2 pb-1">After that, click the CHECKOUT button</li>
+                        <li class="pl-2 pb-1">Login first if you already have an account/register if you don't have an account You can also use Guest Checkout if you don't want to register</li>
+                        <li class="pl-2 pb-1">Click shopping cart then CHECKOUT</li>
+                    </ol>
                 </div>
             </div>
         </div>
