@@ -17,7 +17,7 @@
     <!-- header -->
     <?php include 'component/header.php' ?>
 
-    <div class="min-h-screen mt-[70px] bg-custom-black py-[7.5%] px-[10%] lg:py-[5%] lg:px-[7.5%]">
+    <div class="min-h-screen mt-[70px] bg-custom-black py-[7.5%] px-[24px] md:px-[10%] lg:py-[5%] lg:px-[7.5%]">
         <div class="w-full mb-6">
             <h1 class="text-white font-bold font-Proxima text-2xl">Category</h1>
         </div>

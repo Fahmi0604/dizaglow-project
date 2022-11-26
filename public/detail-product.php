@@ -20,7 +20,7 @@
     <!-- header -->
     <?php include 'component/header.php' ?>
 
-    <div class="mt-[70px] pb-[44px] lg:pb-[88px] bg-custom-black py-[7.5%] px-[10%] lg:py-[10%] lg:px-[7.5%] font-Proxima">
+    <div class="mt-[70px] pb-[44px] lg:pb-[88px] bg-custom-black py-[7.5%] px-[24px] md:px-[10%] lg:py-[10%] lg:px-[7.5%] font-Proxima">
         
         <section class="flex mb-12">
             <div class="w-[40%]">

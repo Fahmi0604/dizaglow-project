@@ -17,7 +17,7 @@
     <!-- header -->
     <?php include 'component/header.php' ?>
 
-    <div class="min-h-screen mt-[70px] bg-custom-black py-[7.5%] px-[10%] lg:py-[5%] lg:px-[7.5%] font-Proxima">
+    <div class="mt-[70px] pb-[44px] lg:pb-[88px] bg-custom-black py-[7.5%] px-[24px] md:px-[10%] lg:py-[10%] lg:px-[7.5%] font-Proxima">
         <div class="flex items-center flex-col">
             <h1 class="text-white text-[32px] font-bold mb-12">FAQ</h1>
             

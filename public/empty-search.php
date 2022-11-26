@@ -17,7 +17,7 @@
     <!-- header -->
     <?php include 'component/header.php' ?>
 
-    <div class=" mt-[70px] bg-custom-black py-[7.5%] px-[10%] lg:py-[15%] lg:px-[7.5%] font-Proxima">
+    <div class="mt-[70px] bg-custom-black py-[50%] px-[24px] md:px-[10%] lg:py-[10%] lg:px-[7.5%] font-Proxima">
         <div class="flex items-center flex-col">
             <svg width="172" height="180" viewBox="0 0 172 180" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_244_617)">
@@ -36,7 +36,7 @@
                 </defs>
             </svg>
             <h1 class="text-white text-[32px] font-bold my-4">Item Not Found</h1>
-            <p class="text-white text-base">we couldn't find anything that match with your keyword</p>
+            <p class="text-white text-center">we couldn't find anything that match with your keyword</p>
         </div>
     </div>
 

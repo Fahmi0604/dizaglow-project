@@ -17,7 +17,7 @@
     <!-- header -->
     <?php include 'component/header.php' ?>
 
-    <div class="mt-[70px] pb-[44px] lg:pb-[88px] bg-custom-black py-[7.5%] px-[10%] lg:py-[10%] lg:px-[7.5%] font-Proxima">
+    <div class="mt-[70px] pb-[44px] lg:pb-[88px] bg-custom-black py-[7.5%] px-[24px] md:px-[10%] lg:py-[10%] lg:px-[7.5%] font-Proxima">
         <div class="w-full flex justify-center">
             <form class="w-full lg:w-[40%] flex items-center flex-col">
                 <h1 class="text-white text-[32px] font-bold mb-10">Login</h1>
