@@ -1,0 +1,91 @@
+/* Product Detail Image Slider */
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySwiper2 {
+    height: 130px;
+}
+
+.mySwiper {
+    height: 52px;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .mySwiper2 {
+        height: 250px;
+    }
+
+    .mySwiper {
+        height: 85px;
+    }
+}
+@media (min-width: 1024px) {
+    .mySwiper2 {
+        height: 54vh;
+    }
+
+    .mySwiper {
+        height: 16vh;
+    }
+}
+
+.mySwiper .swiper-slide {
+    width: 25% !important;
+    margin-right: 12px;
+    background: var(--bg-dark-1);
+    object-fit: cover;
+    opacity: 0.4 !important;
+    transition: .3s;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1 !important;
+}
+
+.mySwiper .swiper-slide-thumb-active img {
+    border: 2px solid white !important;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* end of image slider */
