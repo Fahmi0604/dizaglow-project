@@ -17,9 +17,9 @@
     <!-- header -->
     <?php include 'component/header.php' ?>
 
-    <div class="min-h-screen mt-[70px] bg-custom-black py-[7.5%] px-[10%] lg:py-[5%] lg:px-[7.5%] font-Proxima">
+    <div class="mt-[70px] pb-[44px] lg:pb-[88px] bg-custom-black py-[7.5%] px-[24px] md:px-[10%] lg:py-[10%] lg:px-[7.5%] font-Proxima">
         <div class="w-full flex justify-center">
-            <form class="w-[40%] flex items-center flex-col">
+            <form class="w-full lg:w-[40%] flex items-center flex-col">
                 <h1 class="text-white text-[32px] font-bold mb-10">Register</h1>
                 
                 <input type="text" class="block w-full py-3 pl-3 text-sm text-white border border-white rounded-md bg-transparent outline-none mb-4" placeholder="Nama Lengkap">
@@ -27,11 +27,11 @@
                 <input type="email" class="block w-full py-3 pl-3 text-sm text-white border border-white rounded-md bg-transparent outline-none mb-4" placeholder="Email">
                 <input type="password" class="block w-full py-3 pl-3 text-sm text-white border border-white rounded-md bg-transparent outline-none mb-4" placeholder="Password">
 
-                <button class="bg-secondary text-white w-full py-3 text-xs border border-secondary rounded-md mb-4">
+                <button class="bg-secondary text-white w-full py-3 text-xs font-bold border border-secondary rounded-md mb-4">
                     Register
                 </button>
 
-                <p class="text-[10px] text-white">Already have an account? <a class="text-secondary">Login</a></p>
+                <p class="text-xs text-white">Already have an account? <a class="text-secondary font-bold">Login</a></p>
             </form>
         </div>
     </div>

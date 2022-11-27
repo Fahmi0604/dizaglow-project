@@ -1,9 +1,9 @@
 
 <nav class="absolute top-0 z-50 w-full bg-custom-black border-gray-200 pb-0">
-    <div class="container flex flex-wrap items-center justify-between mx-auto mb-1 md:mt-1 sm:px-4 py-2.5 ">
+    <div class="lg:container flex flex-wrap items-center justify-between mx-auto mb-1 md:mt-1 sm:px-4 py-2.5 ">
         <div class="flex pl-2">
             <!-- btn menu -->
-            <button id="navbar-btn-menu" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none" aria-controls="navbar-search" aria-expanded="false">
+            <button id="navbar-btn-menu" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden focus:outline-none" aria-controls="navbar-menu" aria-expanded="false">
                 <span class="sr-only">Open menu</span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M21.8389 11.1111H2.16111C1.51985 11.1111 1 11.6309 1 12.2722V12.3944C1 13.0357 1.51985 13.5555 2.16111 13.5555H21.8389C22.4802 13.5555 23 13.0357 23 12.3944V12.2722C23 11.6309 22.4802 11.1111 21.8389 11.1111Z" fill="white"/>
@@ -12,7 +12,7 @@
                 </svg>
             </button>
             <!-- btn close -->
-            <button id="navbar-btn-close" type="button" class="hidden items-center p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none" aria-controls="navbar-search" aria-expanded="false">
+            <button id="navbar-btn-close" type="button" class="hidden items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden focus:outline-none" aria-controls="navbar-close" aria-expanded="false">
                 <span class="sr-only">Open menu</span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.41784 20C4.1374 19.9999 3.86328 19.9167 3.63012 19.7609C3.39696 19.6051 3.21524 19.3836 3.10793 19.1245C3.00062 18.8654 2.97254 18.5803 3.02723 18.3053C3.08193 18.0303 3.21694 17.7776 3.41521 17.5793L17.5967 3.39808C17.8641 3.13976 18.2223 2.99682 18.5942 3.00005C18.966 3.00328 19.3217 3.15243 19.5846 3.41536C19.8476 3.67829 19.9967 4.03397 19.9999 4.4058C20.0032 4.77762 19.8602 5.13584 19.6019 5.4033L5.42047 19.5845C5.28895 19.7164 5.13268 19.821 4.96061 19.8923C4.78855 19.9636 4.60409 20.0002 4.41784 20V20Z" fill="white"/>
@@ -41,7 +41,7 @@
                 <span class="sr-only">Search</span>
             </button>
             <!-- input search -->
-            <div class="relative hidden md:block">
+            <div class="relative hidden lg:block">
                 <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                     <!-- <svg class="w-5 h-5 text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg> -->
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +60,7 @@
                 <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-sm text-white border border-white rounded-lg bg-custom-black" placeholder="Search...">
             </div>
             <!-- btn account -->
-            <button type="button" id="navbar-btn-search" aria-controls="navbar-search" aria-expanded="false" class="hidden md:block text-gray-500 focus:outline-none rounded-lg text-sm p-2 ml-3 mr-1" >
+            <button type="button" id="navbar-btn-search" aria-controls="navbar-search" aria-expanded="false" class="hidden lg:block text-gray-500 focus:outline-none rounded-lg text-sm p-2 ml-3 mr-1" >
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_159_1254)">
                     <path d="M12 15C15.3137 15 18 12.3137 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 12.3137 8.68629 15 12 15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
