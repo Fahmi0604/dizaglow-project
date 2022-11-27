@@ -111,7 +111,7 @@
             </aside>
 
             <!-- content -->
-            <section class="w-[80%] pl-8">
+            <section class="w-[80%] pl-8 font-Proxima">
                 <div class="w-full flex items-center mb-6">
                     <span class="text-white text-xs">Sort By: </span>
                     <select id="sort-by" class="bg-transparent text-white font-bold text-xs block w-fit px-2.5">
